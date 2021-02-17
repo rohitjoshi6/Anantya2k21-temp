@@ -1,9 +1,140 @@
-*{
+html, body, pre, code, kbd, samp {
+	font-family: "font-family you want to use";
+
 	margin:0;
 	padding:0;
-	font-family:acme;
 }
+
 body{
-	background-image: url("assets/bg.gif")
 	
-	}
+	overflow-x: hidden;
+	background-image: url('assets/forest.gif');
+	background-attachment: fixed;
+    background-size: cover;
+	max-width: 100%;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+nav li{
+	float: right;
+	margin:0;
+	padding:30px;
+	list-style: none;
+	font-size: 20px;
+}
+
+.logo-anantya{
+position: absolute;
+width: 528px;
+height: 140px;
+left: 30px;
+top: 100px;
+
+background: #FFDED1;
+border: 5px solid #D689A5;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+}
+
+#img1{
+	overflow: hidden;
+	padding-left: 20px;
+	padding-top: 30px;
+	/*position: absolute;*/
+	width: 472.94px;
+	height: 54.31px;
+	left: 30px;
+	top: 288.43px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.para1{
+	position: absolute;
+	width: 778px;
+	height: 200px;
+	left: 30px;
+	top: 300px;
+	
+	background: #FFDED1;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 1px;
+}
+
+.para1 p{
+
+overflow: hidden;
+width: 721.32px;
+height: 300px;
+left: 28.9px;
+top: 546.26px;
+
+font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 53px;
+
+color: #F0A5B1;
+}
+
+#insta button img{
+height: 50px;
+width:52px;
+position: absolute;
+left: 20%;
+right: 1.11%;
+top: 20%;
+bottom: 36.52%;
+}
+
+#insta{
+position: absolute;
+width: 84px;
+height: 81px;
+right:0;
+top: 300px;
+background: #FFDED1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#discord{
+position: absolute;
+width: 200px;
+height: 81px;
+right:0;
+top: 400px;
+background: #FFDED1;
+}
+
+#discord img{
+overflow:hidden;
+position: relative;
+width: 200px;
+height: 81px;
+right:0;
+top: 0;
+}
+
+#register{
+position: absolute;
+width: 515px;
+height: 108.02px;
+right:0;
+top: 500px;
+
+background: #FFDED1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 1px;
+}
+
+
+#register #register-gif{
+position: relative;
+width: 83.74px;
+height: 83.74px;
+right:30px;
+top: 550px;
+}
