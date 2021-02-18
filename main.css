@@ -72,3 +72,10 @@ html, body{
 .card-header #about-navbar{
     height:40px;
 }
+
+/* events page styling*/
+.event{
+    background-color:#17008E !important;
+    border-radius:32px 32px 0px 0px;
+    font-size:40px;
+}
