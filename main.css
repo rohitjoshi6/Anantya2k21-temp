@@ -64,3 +64,53 @@ html, body{
 
     font-size: 25px;
 }
+
+/*About us card*/
+
+html, body{
+    background-color: #FF1901 !important;
+    font-family: 'Press Start 2P' !important;
+}
+.card-header{
+    background-color: #17008E !important;
+    border-radius: 25px 25px 0px 0px !important;
+    color: white !important;
+
+    overflow: hidden !important;
+}
+.card{
+    border: 5px solid #0B1728 !important;
+    border-radius: 32px !important;
+    padding: 0px !important;
+    height: 500px;
+}    
+.contains-card{
+    padding: 5vh;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+   
+}
+.card-header-tabs{
+    float: right !important;
+    max-width: 50%;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.card-text{
+    vertical-align: middle !important; 
+}
+
+.logo{
+    padding-top:25px;
+    padding-left: 30px;
+    font-size:50px;
+}
+
+
+.nav nav-tabs card-header-tabs .nav-item{
+    padding-bottom: 15px;
+}
