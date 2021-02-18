@@ -1,0 +1,14 @@
+html, body{
+    background-color: #FF1901 !important;
+    font-family: 'Press Start 2P';
+}
+.card-header{
+    background-color: #17008E !important;
+    border-radius: 25px 25px 0px 0px !important;
+    color: white;
+}
+.card{
+    border: 5px solid #0B1728 !important;
+    border-radius: 32px !important;
+    padding: 0px !important;
+}    
