@@ -1,14 +1,67 @@
 html, body{
     background-color: #FF1901 !important;
-    font-family: 'Press Start 2P';
+    font-family: 'Press Start 2P' !important;
 }
 .card-header{
     background-color: #17008E !important;
     border-radius: 25px 25px 0px 0px !important;
-    color: white;
+    color: white !important;
+
+    overflow: hidden !important;
 }
 .card{
     border: 5px solid #0B1728 !important;
     border-radius: 32px !important;
     padding: 0px !important;
 }    
+.contains-card{
+    padding: 5vh;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.card-header-tabs{
+    float: right !important;
+    max-width: 50%;
+    
+    
+}
+.logo{
+    float: left !important;
+    padding-left: 2vw;
+    padding-top: 0.5vh;
+    max-width: 50%;
+}
+#logo-only{
+    height: 400px;
+    width: 200px;
+}  
+.left-half {
+    float: left !important;
+    
+}
+  
+.right-half {
+    float: right !important;
+}
+
+.card-text{
+    vertical-align: middle !important; 
+}
+
+.main-header{
+    background: linear-gradient(180deg, #58237A 0%, #CC4444 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 100px;
+}
+
+.register{
+    background: #FFCC01;
+    border: 4px solid #000000;
+    border-radius: 15px;
+    width: 375px;
+    height: 79px;
+    font-size: 30px;
+}
