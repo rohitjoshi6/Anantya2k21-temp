@@ -68,3 +68,7 @@ html, body{
 .card-body{
     padding-bottom: 20vh;
 }
+
+.card-header #about-navbar{
+    height:40px;
+}
