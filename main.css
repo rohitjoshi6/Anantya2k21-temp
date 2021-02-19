@@ -112,7 +112,11 @@ html, body{
 
 /*footer*/
 
-.footer-container{
+footer{
+    overflow:hidden;
+}
+
+/*.footer-container{
     position: absolute;
     color: #fff;
     display: flex;
@@ -121,8 +125,16 @@ html, body{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     bottom: 0;  
+}*/
+.footer-container{
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    max-width: 1400px;
+    background: #0B1728;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
-
 .footer-col{
     width: 32%;
     padding-left: 20px;
@@ -140,11 +152,8 @@ html, body{
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
+    color: #fff;
  }
-
-/*.footer-col-center{
-    text-align: center;
-}*/
 
 .footer-col-right{
     width: 36%;
@@ -208,5 +217,27 @@ html, body{
     .contains-card{
         padding: 5vh;
         
+    }
+    .footer-col{
+        width: 100%;
+    }
+     .footer-container{
+        display: block;
+        bottom: 0;
+        position: absolute;
+    }
+    .footer-col h3{
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+    .copyright,.social-links,.address{
+    font-size: 10px;
+    }
+    .vl{display: none;}
+}
+@media only screen and (max-width: 330px) {
+    .footer-container{
+        display: none;
     }
 }
