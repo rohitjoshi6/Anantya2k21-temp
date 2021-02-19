@@ -195,6 +195,9 @@ html, body{
     .event{
         font-size: 20px !important;
     }
+    .info{
+        font-size: 15px;
+    }
     
 }
 @media only screen and (max-width: 769px) {
