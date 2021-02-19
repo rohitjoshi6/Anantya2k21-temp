@@ -9,6 +9,11 @@ html, body{
 
     overflow: hidden !important;
 }
+
+.card-contain{
+    max-width: 90vw !important;
+}
+
 .card{
     border: 5px solid #0B1728 !important;
     border-radius: 32px !important;
@@ -19,6 +24,7 @@ html, body{
 }
 .contains-card{
     padding: 10vh;
+    
 }
 .nav-link{
     text-decoration: none;
@@ -173,4 +179,31 @@ html, body{
     margin-right: 45px;
     bottom: 15px;
     margin-top: 1.2em;
+}
+
+@media only screen and (max-width: 993px) {
+    #logo-only{
+        height: 400px;
+        width: 200px;
+    }
+    body {
+        font-size: 10px !important;
+    }
+    .register{    
+        font-size: 15px !important;    
+    }
+    .event{
+        font-size: 20px !important;
+    }
+    
+}
+@media only screen and (max-width: 769px) {
+
+    .main-header{
+        padding-top: 0px;
+    }
+    .contains-card{
+        padding: 5vh;
+        
+    }
 }
