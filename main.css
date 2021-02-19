@@ -86,3 +86,91 @@ html, body{
     border-radius:32px 32px 0px 0px;
     font-size:40px;
 }
+
+  
+  /*page 4 styling*/
+
+.page4{
+    box-sizing: border-box !important;
+}
+
+.info-container{
+    height: 600px;
+}
+
+.info{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+/*footer*/
+
+.footer-container{
+    position: absolute;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    background: #0B1728;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    bottom: 0;  
+}
+
+.footer-col{
+    width: 32%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+
+.footer-col h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: Press Start 2P;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+ }
+
+/*.footer-col-center{
+    text-align: center;
+}*/
+
+.footer-col-right{
+    width: 36%;
+}
+
+.social-links li{
+    list-style-type: none;
+    line-height: 1.5rem;
+}
+
+.social-links a{
+    color: #9D9494;
+}
+
+.social-links{
+    padding: 0;
+}
+
+.copyright,.social-links{
+    font-size: 12px;
+    color: #9D9494;
+}
+.address{
+    font-size: 10px;
+    color: #9D9494;
+}
+
+/*vertical line in footer*/
+.vl{
+    border-left: 5px solid #FFFFFF;
+    height: 160px;
+    margin-right: 45px;
+    bottom: 15px;
+    margin-top: 1.2em;
+}
